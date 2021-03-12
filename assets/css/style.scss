@@ -165,7 +165,8 @@ body {
 	.place_img {
 		display: block;
 		img {
-			height: 250px;
+			height: 180px;
+			object-fit: cover;
 		}
 	}
 	.place_content {
