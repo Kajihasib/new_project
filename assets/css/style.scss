@@ -166,13 +166,14 @@ body {
 		display: block;
 		img {
 			height: 180px;
+			width: 100%;
 			object-fit: cover;
 		}
 	}
 	.place_content {
 		padding: 20px;
 		h4 {
-			font-size: 24px;
+			font-size: 20px;
 			font-weight: 500;
 			margin-bottom: 0;
 		}
@@ -184,11 +185,15 @@ body {
 		margin-bottom: 10px;
 	}
 	p {
-		line-height: 22px;
+		line-height: 20px;
+		font-size: 12px;
 		margin-bottom: 15px;
 	}
 	.btnStyle {
-		min-height: 35px;
+		min-height: 30px;
+		padding: 2px 15px;
+		min-width: 100px;
+		border-width: 1px;
 	}
 }
 .download-apps-area {
